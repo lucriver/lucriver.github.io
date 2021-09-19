@@ -2200,12 +2200,13 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 15em;
 			border-radius: 0;
 		}
 
 			.image.main img {
 				border-radius: 0;
+				filter: blur(px);
 			}
 
 /* List */
@@ -2772,6 +2773,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
+					font-size: pt;
 					color: #b7eadc;
 				}
 

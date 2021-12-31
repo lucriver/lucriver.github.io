@@ -1,6 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap');
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -32,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
 
 ol, ul {
 	list-style: none;
@@ -99,8 +99,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
-		font-size: 16pt;
+		font-family: "Poppins", sans-serif;
+		font-size: 28pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -110,19 +110,19 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: steelblue !important;
 		}
 
+
 	strong, b {
-		color: #777;
-		font-weight: 700;
+		color: #333;
+		font-weight: 400;
 	}
 
 	em, i {
@@ -130,12 +130,14 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2.25em 0;
+		margin: 0 0 1.5em 0;
+    color: #333;
+    font-family: "Poppins", sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
-		font-weight: 700;
+		color: #333;
+		font-weight: 600;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
@@ -147,7 +149,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.5em;
 	}
 
@@ -204,14 +206,14 @@ input, select, textarea {
 		background: #555;
 		border-radius: 5px;
 		color: #fff;
-		font-family: "Source Code Pro", monospace;
+		font-family: "Poppins", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
 	}
 
 	pre {
-		font-family: "Source Code Pro", monospace;
+		font-family: "Poppins", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2.25em 0;
 	}
@@ -1709,7 +1711,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 45em;
+		width: 65em;
 	}
 
 		.container.xsmall {
@@ -1759,9 +1761,9 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
+		color: #555;
 		position: relative;
-		margin: 0 0 1.6875em 0;
+		margin: 0 0 1.25 0;
 	}
 
 	header h2 + p {
@@ -1785,14 +1787,14 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: hsl(207, 44%, 40%);
 		font-size: 3.5em;
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #555;
 			font-size: 1.75em;
-			font-weight: 700;
+			font-weight: 500em;
 			margin-top: -0.75em;
 		}
 
@@ -1803,7 +1805,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #777;
+		color: black;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -1862,7 +1864,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #777;
+			color: black;
 			background: #fff;
 		}
 
@@ -1953,7 +1955,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: steelblue;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2043,7 +2045,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 5 Free';
 		}
 
 /* Image */
@@ -2223,9 +2225,11 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2.25em 0;
-		padding-left: 1em;
+		margin: 0 0 0em 0;
+		padding-left: 0em;
+    font-family: 'Poppins', sans-serif;
 	}
+
 
 		ul li {
 			padding-left: 0.5em;
@@ -2377,6 +2381,8 @@ input, select, textarea {
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
+    color: #333;
+    font-family: "Poppins", sans-serif;
 	}
 
 		ul.feature-icons li {
@@ -2403,9 +2409,9 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: steelblue;
 				border-radius: 100%;
-				color: #ffffff;
+				color: white;
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2418,24 +2424,12 @@ input, select, textarea {
 
 /* Icons */
 
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
+	
+	.icons-footer{
+		font-size: 40px;
+		list-style-type: none;
+		text-decoration: none;
 	}
-
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1em 0 0;
-		}
-
-			ul.icons li:last-child {
-				padding-right: 0 !important;
-			}
-
-			ul.icons li .icon:before {
-				font-size: 1.25em;
-			}
 
 /* Table */
 
@@ -2464,7 +2458,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #777;
+			color: black;
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2701,14 +2695,14 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: steelblue;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 20em;
 		right: 0;
 	}
 
@@ -2721,7 +2715,8 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #b7eadc;
+			color: steelblue;
+      font-family: 'Poppins', sans-serif;
 		}
 
 		#header a {
@@ -2747,13 +2742,12 @@ input, select, textarea {
 			}
 
 			#header > header h1 {
-				font-size: 1.75em;
+				font-size: 2.0em;
 				margin: 0;
 			}
 
 			#header > header p {
-				color: #d2f2e9;
-				font-style: bold;
+				color: white;
 				margin: 1em 0 -1em 0;
 			}
 
@@ -2764,7 +2758,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 2em;
+			padding: 0em;
 			width: 100%;
 		}
 
@@ -2773,7 +2767,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					font-size: pt;
+					font-size: 4pt;
 					color: #b7eadc;
 				}
 
@@ -2786,14 +2780,15 @@ input, select, textarea {
 
 			#header > nav ul {
 				list-style: none;
-				margin: 0;
-				padding: 0;
+				margin: 1.0em;
+				padding: 0em;
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 1.5px white;
 					display: block;
 					padding: 0;
+					font-size: 17.5px;
 				}
 
 					#header > nav ul li a {
@@ -2804,13 +2799,14 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.60em 0;
+						padding: 2.0em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+							background: hsl(207, 44%, 38%);
+							font-weight: bolder;
+							color: white !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2905,7 +2901,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding: 2em 0 2em 0;
 			}
 
 	}
@@ -3078,7 +3074,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: steelblue;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3211,7 +3207,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 2em 0 0 0;
+				padding: 2em 0 0 2em;
 			}
 
 		/* Footer */

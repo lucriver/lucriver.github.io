@@ -24,17 +24,16 @@
 				</header>
 				<nav id="nav">
 					<ul className="ul">
-						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Skills</a></li>
-						<li><a href="#three">Projects</a></li>
-						<li><a href="#four">Resume/Contact</a></li>
+						<li><a href="#about" class="active">About Me</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Resume/Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons-footer">
-						<i><a href="#" class="fab fa-linkedin-in"><span class="label"></span></a></i>
-						<i><a href="#" class="fab fa-github"><span class="label"></span></a></i>
-						<i><a href="#" class="fab fa fa-envelope"><span class="label"></span></a></i>
+						<li><a href="https://www.linkedin.com/in/lucas-hirt" target="_blank" class="fab fa-linkedin-in"><span class="label"></span></a></i>
+						<li><a href="#" class="fab fa fa-envelope"><span class="label"></span></a></i>
 					</ul>
 				</footer>
 			</section>
@@ -46,7 +45,7 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one">
+							<section id="about">
 								<div class="image main" data-position="center">
 									<img src="images/banner01.jpg" alt="" />
 								</div>
@@ -60,7 +59,7 @@
 							</section>
 
 						<!-- Two -->
-							<section id="two">
+							<section id="skills">
 								<div class="container">
                   <header class="major">
 									<h2>Skills</h2>
@@ -79,14 +78,14 @@
 							</section>
 
 						<!-- Three -->
-							<section id="three">
+							<section id="projects">
 								<div class="container">
                   <header class="major">
                     <h2>Projects</h2>
                     <p>My Proudest Work.</p>
                   </header>
 									<p>Here you will find my personal, non-school related projects. I can proudly say that besides the existing frameworks these were built on, all of these projects have been coded from scratch. None of them are forks of existing projects, or copies of projects provided in Youtube tutorials, and so on. 
-                    These have provided me with invaluable experience. <br><br>Click on a project below to get :
+                    These have provided me with invaluable experience. <br><br>See a project below to get :
                     <ul class="feature-icons">
                       <li class="icon solid fa-info"> A brief technical explanation of the project.</li>
                       <li class="icon solid fa-server">A link to the live project deployed through digital ocean.</li>
@@ -95,13 +94,37 @@
                     </ul>
                   </p>
 									<div class="features">
-										<article>
+										<article id="movieme">
 											<a href="#" class="image"><img src="images/MovieMe.jpg" alt="pic01.jpg" /></a>
 											<div class="inner">
 												<h2>Movie Me!</h2>
                        	 	<h4> - A fullstack web app using the MERN stack and a movie database API. </h4>
-												<p>Movie Me! is a web app utilizing the MERN stack</p>
+												<p>Movie Me! is a fullstack web app that uses a movie database API by The Movie Database (TMDB).
+                          A user can query hundreds of thousands of movies by selecting from 4 different filters that utilize API 
+                          presets with algorithms I wrote to optimize search results. A user can also create a watchlist which
+                          they can view and edit at any time.
+                        </p>
+                        <div class='tech-stack-container'>
+                          <img class='tech-stack-container--image' src='images/mongodb.png'>
+                          <img class='tech-stack-container--image' src='images/expressjs.png'>
+                          <img class='tech-stack-container--image' src='images/reacticon.png'>
+                          <img class='tech-stack-container--image' src='images/nodejs.png'>                          
+                        </div>
 											</div>
+                      <div class="direct-links">
+                        <h4>
+                          Github Repository
+                          <div class="direct-links__image">
+                            <img class='direct-links__image--image' src='images/github.png'>
+                          </div>
+                        </h4>
+                        <h4>
+                          Live App On
+                          <div class="direct-links__image">
+                            <img class='direct-links__image--image' src='images/digitalocean.png'>
+                          </div>
+                        </h4>
+                      </div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
@@ -124,7 +147,7 @@
 							</section>
 
 						<!-- Four -->
-						<section id="four">
+						<section id="contact">
 							<div class="container">
                 <header class="major">
 									<h2>Contact Me / Resume</h2>
@@ -144,7 +167,7 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>Template: <a href="https://html5up.net/read-only">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>

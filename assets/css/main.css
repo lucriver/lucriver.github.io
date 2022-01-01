@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: #333;
 		font-family: "Poppins", sans-serif;
 		font-size: 28pt;
 		font-weight: 400;
@@ -1820,7 +1820,9 @@ input, select, textarea {
   .tech-stack-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+    margin-top: 0px;
   }
 
 
@@ -2385,9 +2387,36 @@ input, select, textarea {
 
 /* Feature Icons */
 
+  .technical-skills{
+    color: #333;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+	margin-top: 25px;
+	column-gap: 60px;
+	flex-wrap: wrap;
+  }
+
+  .technical-skills__list--item{
+    display: flex;
+	align-items: center;
+	gap: 15px;
+  }
+
+  .technical-skills__list--image{
+	  margin-bottom: 10px;
+	  width: 90%;
+  }
+
+  .technical-skills__list--skill{
+	  margin-bottom: -22px;
+  }
+
+
+
+
 	ul.feature-icons {
 		list-style: none;
-		padding-left: 0;
     color: #333;
     font-family: "Poppins", sans-serif;
 	}
@@ -2430,24 +2459,32 @@ input, select, textarea {
 			}
 
 /* Icons */
-
+		
     .direct-links{
+      margin-top: 30px;
+      justify-content: center;
       display: flex;
       text-align: center;
-      align-items: center;
     }
+
+	.direct-links__tag{
+    cursor: pointer;
+	}
 
     .direct-links__image{
       margin-top: 15px;
-      width: 50%;
-      align-content: center;
-      align-items: center;
+      cursor: inherit;
     }
 
     .direct-links__image--image{
       width: 50%;
       height: 50%;
-      align-content: center;
+    }
+
+    .direct-links__image--image-closer{
+      width: 50%;
+      height: 50%;
+      margin-top: -20px;
     }
 
 	
@@ -2514,11 +2551,11 @@ input, select, textarea {
 			}
 
 				table.alt tbody tr td:first-child {
-					border-left-width: 2px;
+					border-left-width: 0px;
 				}
 
 			table.alt tbody tr:first-child td {
-				border-top-width: 2px;
+				border-top-width: 0px;
 			}
 
 			table.alt thead {
@@ -2791,6 +2828,12 @@ input, select, textarea {
 			padding: 0em;
 			width: 100%;
 		}
+
+    .project-overview{
+      color: #333;
+      font-family: "Poppins", sans-serif;
+
+    }
 
 			#header > footer .icons {
 				margin: 0;
@@ -3329,6 +3372,7 @@ input, select, textarea {
 
 			ul.feature-icons li {
 				display: block;
+        cursor:pointer;
 				width: 100%;
 			}
 

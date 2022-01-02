@@ -1821,10 +1821,43 @@ input, select, textarea {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     gap: 10px;
-    margin-top: 0px;
+    margin-top: -20px;
+
+
   }
 
+  .tech-stack-container--image{
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 0;
+  }
+
+  .tech-stack-container--svg{
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 0;
+  }
+
+
+  .contact-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    min-width: 0;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: -25px;
+  }
+
+  ul.contact-list{
+    font-size: 30px;
+    list-style-type: none;
+    align-items: center;
+  }
 
 	input[type="text"],
 	input[type="password"],
@@ -2392,9 +2425,9 @@ input, select, textarea {
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
-	margin-top: 25px;
-	column-gap: 60px;
-	flex-wrap: wrap;
+    margin-top: 25px;
+    column-gap: 60px;
+    flex-wrap: wrap;
   }
 
   .technical-skills__list--item{
@@ -2914,7 +2947,7 @@ input, select, textarea {
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+    margin-bottom: 25px;
 	}
 
 		#footer .copyright {

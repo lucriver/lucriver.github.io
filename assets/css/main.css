@@ -481,6 +481,250 @@ input, select, textarea {
 					padding-top: 4em;
 				}
 
+    @media screen and (max-width : 1866.67pxfive){
+			.row {
+				display: flex;
+				flex-wrap: wrap;
+				box-sizing: border-box;
+				align-items: stretch;
+			}
+
+				.row > * {
+					box-sizing: border-box;
+				}
+
+				.row.gtr-uniform > * > :last-child {
+					margin-bottom: 0;
+				}
+
+				.row.aln-left {
+					justify-content: flex-start;
+				}
+
+				.row.aln-center {
+					justify-content: center;
+				}
+
+				.row.aln-right {
+					justify-content: flex-end;
+				}
+
+				.row.aln-top {
+					align-items: flex-start;
+				}
+
+				.row.aln-middle {
+					align-items: center;
+				}
+
+				.row.aln-bottom {
+					align-items: flex-end;
+				}
+
+				.row > .imp-xlarge {
+					order: -1;
+				}
+
+				.row > .col-1-xlarge {
+					width: 8.33333%;
+				}
+
+				.row > .off-1-xlarge {
+					margin-left: 8.33333%;
+				}
+
+				.row > .col-2-xlarge {
+					width: 16.66667%;
+				}
+
+				.row > .off-2-xlarge {
+					margin-left: 16.66667%;
+				}
+
+				.row > .col-3-xlarge {
+					width: 25%;
+				}
+
+				.row > .off-3-xlarge {
+					margin-left: 25%;
+				}
+
+				.row > .col-4-xlarge {
+					width: 33.33333%;
+				}
+
+				.row > .off-4-xlarge {
+					margin-left: 33.33333%;
+				}
+
+				.row > .col-5-xlarge {
+					width: 41.66667%;
+				}
+
+				.row > .off-5-xlarge {
+					margin-left: 41.66667%;
+				}
+
+				.row > .col-6-xlarge {
+					width: 50%;
+				}
+
+				.row > .off-6-xlarge {
+					margin-left: 50%;
+				}
+
+				.row > .col-7-xlarge {
+					width: 58.33333%;
+				}
+
+				.row > .off-7-xlarge {
+					margin-left: 58.33333%;
+				}
+
+				.row > .col-8-xlarge {
+					width: 66.66667%;
+				}
+
+				.row > .off-8-xlarge {
+					margin-left: 66.66667%;
+				}
+
+				.row > .col-9-xlarge {
+					width: 75%;
+				}
+
+				.row > .off-9-xlarge {
+					margin-left: 75%;
+				}
+
+				.row > .col-10-xlarge {
+					width: 83.33333%;
+				}
+
+				.row > .off-10-xlarge {
+					margin-left: 83.33333%;
+				}
+
+				.row > .col-11-xlarge {
+					width: 91.66667%;
+				}
+
+				.row > .off-11-xlarge {
+					margin-left: 91.66667%;
+				}
+
+				.row > .col-12-xlarge {
+					width: 100%;
+				}
+
+				.row > .off-12-xlarge {
+					margin-left: 100%;
+				}
+
+				.row.gtr-0 {
+					margin-top: 0;
+					margin-left: 0em;
+				}
+
+					.row.gtr-0 > * {
+						padding: 0 0 0 0em;
+					}
+
+					.row.gtr-0.gtr-uniform {
+						margin-top: 0em;
+					}
+
+						.row.gtr-0.gtr-uniform > * {
+							padding-top: 0em;
+						}
+
+				.row.gtr-25 {
+					margin-top: 0;
+					margin-left: -0.5em;
+				}
+
+					.row.gtr-25 > * {
+						padding: 0 0 0 0.5em;
+					}
+
+					.row.gtr-25.gtr-uniform {
+						margin-top: -0.5em;
+					}
+
+						.row.gtr-25.gtr-uniform > * {
+							padding-top: 0.5em;
+						}
+
+				.row.gtr-50 {
+					margin-top: 0;
+					margin-left: -1em;
+				}
+
+					.row.gtr-50 > * {
+						padding: 0 0 0 1em;
+					}
+
+					.row.gtr-50.gtr-uniform {
+						margin-top: -1em;
+					}
+
+						.row.gtr-50.gtr-uniform > * {
+							padding-top: 1em;
+						}
+
+				.row {
+					margin-top: 0;
+					margin-left: -2em;
+				}
+
+					.row > * {
+						padding: 0 0 0 2em;
+					}
+
+					.row.gtr-uniform {
+						margin-top: -2em;
+					}
+
+						.row.gtr-uniform > * {
+							padding-top: 2em;
+						}
+
+				.row.gtr-150 {
+					margin-top: 0;
+					margin-left: -3em;
+				}
+
+					.row.gtr-150 > * {
+						padding: 0 0 0 3em;
+					}
+
+					.row.gtr-150.gtr-uniform {
+						margin-top: -3em;
+					}
+
+						.row.gtr-150.gtr-uniform > * {
+							padding-top: 3em;
+						}
+
+				.row.gtr-200 {
+					margin-top: 0;
+					margin-left: -4em;
+				}
+
+					.row.gtr-200 > * {
+						padding: 0 0 0 4em;
+					}
+
+					.row.gtr-200.gtr-uniform {
+						margin-top: -4em;
+					}
+
+						.row.gtr-200.gtr-uniform > * {
+							padding-top: 4em;
+						}
+
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			.row {
@@ -2106,8 +2350,8 @@ input, select, textarea {
 			object-fit: cover;
 			display: block;
 			position: absolute;
-			top: 0;
-			left: 0;
+			top: 0px;
+			right: 0px;
 			width: 100%;
 			height: 100%;
 		}
@@ -2169,10 +2413,10 @@ input, select, textarea {
 		}
 
 		.image[data-position="center"] img {
-			-moz-object-position: center;
-			-webkit-object-position: center;
-			-ms-object-position: center;
-			object-position: center;
+			-moz-object-position: right;
+			-webkit-object-position: right;
+			-ms-object-position: right;
+			object-position: right;
 		}
 
 		.image[data-position="25% 25%"] img {
@@ -2243,15 +2487,67 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			height: 15em;
-			border-radius: 0;
-		}
+			/* display: block;
+			height: 18em;
+      overflow: hidden;
+      position: relative; */
 
-			.image.main img {
-				border-radius: 0;
-				filter: blur(px);
-			}
+      height: 18em;
+      position: relative !important;
+      overflow: hidden;
+      display: block;
+		}
+		.image.main img {
+      /* border-radius: 0; */
+      width: 107.5%;
+      height: auto;
+      transform: rotate(5deg);
+      bottom: -27.6em;
+      position: absolute;
+      right: -1em;
+    }
+    @media only screen and (max-width: 414px) {
+      .image.main {
+        /* display: block;
+        height: 18em;
+        overflow: hidden;
+        position: relative; */
+  
+        height: 18em;
+        position: relative !important;
+        overflow: hidden;
+        display: block;
+      }
+      .image.main img {
+        /* border-radius: 0; */
+        width: 108% !important;
+        height: auto !important;
+        transform: rotate(5deg) !important; 
+        bottom: -7em !important;
+        position: absolute;
+        right: -.5em !important;
+      }
+    }
+
+
+    .banner{
+      display: block;
+      overflow: hidden;
+      position: relative;
+      height: 18em;
+    }
+
+    .banner__image{ 
+      position: absolute;
+      width: 110%;
+      height: auto;
+      bottom: -29em;
+      right: -.6em;
+      transform: rotate(5deg);
+      padding: 0em 0em 0em 0em;
+      min-width: 0;
+    }
+
 
 /* List */
 
@@ -2973,6 +3269,42 @@ input, select, textarea {
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+    @media screen and (max-width: 2520px) {
+
+      /* Basic */
+  
+        body, input, select, textarea {
+          font-size: 13pt;
+        }
+  
+      /* Header */
+  
+        #header {
+          width: 21em;
+        }
+  
+          #header > header {
+            padding: 2em;
+          }
+  
+          #header > footer {
+            padding: 1.5em;
+          }
+  
+      /* Wrapper */
+  
+        #wrapper {
+          padding-right: 21em;
+        }
+  
+      /* Main */
+  
+        #main > section > .container {
+          padding: 2em 0 2em 0;
+        }
+  
+    }       
 
 /* XLarge */
 

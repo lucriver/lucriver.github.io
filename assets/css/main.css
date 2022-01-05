@@ -2774,7 +2774,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: rgb(50, 54, 57);
+				background: #4267B2;
 				border-radius: 100%;
 				color: white;
 				display: block;

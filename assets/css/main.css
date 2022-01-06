@@ -1,5 +1,7 @@
 @import url("fontawesome-all.min.css");
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poppins&family=Roboto&display=swap');
+
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -131,15 +133,16 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 1.5em 0;
-    color: #333;
-    font-family: "Poppins", sans-serif;
+    color: rgb(50, 54, 5);
+    font-family: "Roboto", sans-serif; 
+
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: rgb(54, 58, 61);
 		font-weight: bold;
 		line-height: 1em;
-		margin: 0 0 0.25em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1955,7 +1958,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 65em;
+		width: 62em;
 	}
 
 		.container.xsmall {
@@ -2064,13 +2067,12 @@ input, select, textarea {
 
   .tech-stack-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: space-evenly;
     text-align: center;
-    gap: 10px;
-    margin-top: -20px;
-
-
+    align-items: center;
+    gap: .5em;
   }
 
   .tech-stack-container--image{
@@ -2717,28 +2719,29 @@ input, select, textarea {
 /* Feature Icons */
 
   .technical-skills{
-    color: #333;
-    margin-bottom: 2em;
     display: flex;
-    justify-content: center;
-    margin-top: 2em;
-    column-gap: 2em;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
     flex-wrap: wrap;
+    padding: 2em;
+    gap: .5em;
   }
 
   .technical-skills__list--item{
-    display: flex;
-    align-items: center;
-    gap: 1em;
+    flex: 1 0 21%;
+    margin-top: 1em;
   }
 
   .technical-skills__list--image{
-	  margin-bottom: 10px;
-	  width: 90%;
+    width: 7em;
+    height: auto;
   }
 
   .technical-skills__list--skill{
-	  margin-bottom: -22px;
+
   }
 
 
@@ -2790,7 +2793,7 @@ input, select, textarea {
 /* Icons */
 		
     .direct-links{
-      margin-top: 30px;
+      margin-top: 3em;
       justify-content: center;
       display: flex;
       text-align: center;
@@ -3651,7 +3654,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 2em 0 0 2em;
+				padding: 2em 1em 2em 1em;
 			}
 
 		/* Footer */

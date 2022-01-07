@@ -2501,10 +2501,10 @@ input, select, textarea {
 		}
 		.image.main img {
       /* border-radius: 0; */
-      width: 107.5%;
+      width: 100.5%;
       height: auto;
       transform: rotate(5deg);
-      bottom: -27.6em;
+      bottom: -24.6em;
       position: absolute;
       right: -1em;
     }
@@ -3103,6 +3103,7 @@ input, select, textarea {
 		top: 0;
 		width: 20em;
 		right: 0;
+
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -3157,7 +3158,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 0em;
+      padding: 0em 1em 2em 0em;
 			width: 100%;
 		}
 
@@ -3186,7 +3187,7 @@ input, select, textarea {
 			#header > nav ul {
 				list-style: none;
 				margin: 0em;
-				padding: 1em;
+				padding: 0em 1em 1em 1em;
 			}
 
 				#header > nav ul li {
@@ -3222,7 +3223,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-right: 23em;
+		padding-right: 18em;
 	}
 
 /* Main */
@@ -3284,7 +3285,7 @@ input, select, textarea {
       /* Header */
   
         #header {
-          width: 21em;
+          width: 18em;
         }
   
           #header > header {
@@ -3292,13 +3293,13 @@ input, select, textarea {
           }
   
           #header > footer {
-            padding: 1.5em;
+            padding: auto;
           }
   
       /* Wrapper */
   
         #wrapper {
-          padding-right: 21em;
+          padding-right: auto;
         }
   
       /* Main */
@@ -3322,7 +3323,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 18em;
 			}
 
 				#header > header {
@@ -3330,19 +3331,18 @@ input, select, textarea {
 				}
 
 				#header > footer {
-          padding: 0em 0.3em 3em 0em;
+          padding: auto;
           display: flex;
           justify-content: center;
           /* margin: 2em; */
           align-items: center;
           text-align: center;
       }
-				}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-right: auto;
 			}
 
 		/* Main */
@@ -3350,8 +3350,7 @@ input, select, textarea {
 			#main > section > .container {
 				padding: 2em 0 2em 0;
 			}
-
-	}
+    }
 
 /* Large */
 
@@ -3438,6 +3437,7 @@ input, select, textarea {
 					bottom: auto;
 					left: auto;
 					margin: 0.5em 0 0 0;
+          padding: 0em 1em 2em 0em;
 					position: relative;
 					right: auto;
 					top: auto;
@@ -3648,7 +3648,7 @@ input, select, textarea {
 					}
 
 				#header > footer {
-					padding: 1.5em;
+					padding: 0em 1em 2em 0em;
 				}
 
 		/* Main */
